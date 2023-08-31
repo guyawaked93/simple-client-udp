@@ -8,8 +8,7 @@ Para instalar o código, você precisa ter Python instalado em seu computador. D
 
 git clone https://github.com/[Seu nome de usuário]/udp-client.git
 Execução
-Para executar o código, você precisa abrir um terminal e navegar até o diretório onde o código foi baixado. Em seguida, execute o seguinte comando:
-
+Para executar o código, você precisa abrir um terminal e navegar até o diretório onde o código foi baixado. Em seguida, execute o seguinte comando :
 python3 client.py
 Exemplos
 Aqui estão alguns exemplos de como usar o código:

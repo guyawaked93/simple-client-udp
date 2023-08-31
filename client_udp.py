@@ -6,9 +6,9 @@ try:
     while True:
         
         print("A seguir insira o host e a porta que deseja comincar")
-        host , porta = input("Digite o host e a porta separado por espaço :").split()
+        host , porta = input("Digite o host e a porta separado por espaço: ").split()
         
-        msgem = input("Digite a mensagem aqui ...")
+        msgem = input("Digite a mensagem aqui: ")
         client.sendto(msgem.encode(), (host , int (porta)))
         data, sender = client.recvfrom(1024)
         print(sender[0] + ":" + data.decode())
