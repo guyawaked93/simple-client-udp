@@ -17,7 +17,7 @@ try:
         data, sender = client.recvfrom(1024)
         print(sender[0] + ":" + data.decode())
 
-        if msgem.encode().strip() ==  "SAIR" or data.strip() == "SAIR":
+        if msgem.encode().strip() == "SAIR" or data.strip() == "SAIR":
             break
          
 except Exception as erro:
